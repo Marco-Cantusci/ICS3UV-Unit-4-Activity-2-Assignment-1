@@ -25,8 +25,7 @@ do {
   const numberString: string = prompt("Enter an integer or zero(0) to end: ") || ("Invalid") // asks for integer until 0 is pressed.
   numberNumber = parseInt(numberString);
 
-  if (numberNumber === 0) {
-  } else if (numberNumber >= startNumber && numberNumber <= endNumber) { // adds to total sum
+  if (numberNumber >= startNumber && numberNumber <= endNumber) { // adds to total sum
     inRange += numberNumber;
   } else {
     outRange += numberNumber;
@@ -35,4 +34,5 @@ do {
 } while (numberNumber !== 0); // print out sums
   console.log(`The sum of the integers inside the range is ${inRange}`);
   console.log(`The sum of the integers outside the range is ${outRange}`);
+
   console.log("\nDone.");
