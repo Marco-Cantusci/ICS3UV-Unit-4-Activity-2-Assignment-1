@@ -52,8 +52,8 @@ func main() {
 			inRange += int(numberNumber)
 		} else {
 			outRange += int(numberNumber)
+		}
 	}
-}
 
 	fmt.Printf("The sum of the integers inside the range is %d \n", inRange)
 	fmt.Printf("The sum of the integers outside the range is %d \n", outRange)
