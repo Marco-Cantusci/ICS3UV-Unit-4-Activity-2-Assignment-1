@@ -26,7 +26,6 @@ do {
   numberNumber = parseInt(numberString);
 
   if (numberNumber === 0) {
-  
   } else if (numberNumber >= startNumber && numberNumber <= endNumber) { // adds to total sum
     inRange += numberNumber;
   } else {

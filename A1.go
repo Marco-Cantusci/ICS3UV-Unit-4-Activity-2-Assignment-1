@@ -27,7 +27,6 @@ func main() {
 	var inRange int
 	var outRange int
 
-
 	reader := bufio.NewReader(os.Stdin)
 
 	// asking for range
